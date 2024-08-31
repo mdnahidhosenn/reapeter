@@ -101,14 +101,10 @@ body{
  i{
   cursor: pointer;
  }
+
+
  @media(max-width:375px){
   .container{
-   height: 100vh;
-    padding-top: 2rem;
-    box-shadow: none;
-    padding-right: 2rem;
-    background: transparent;
-    /* background: linear-gradient(45deg,#664e4e,#7e94b3);  */
     background-color: transparent;
   }
    }
