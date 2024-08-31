@@ -97,6 +97,8 @@ body{
   padding-left: 1rem;
   padding-right: .8rem;
   margin-top: 6%;
+  overflow-y: auto; 
+  scrollbar-width: none;
  }
  i{
   cursor: pointer;
