@@ -65,7 +65,7 @@ sent.addEventListener('click',()=>{
 copy.addEventListener('click',()=>{
   if(output.innerHTML !== ''){
     navigator.clipboard.writeText(output.innerHTML);
-    copy.innerHTML=`<i class="fa-solid fa-check" title="copied"></i>`
+    copy.innerText=`<i class="fa-solid fa-check" title="copied"></i>`
     setTimeout(()=>{
  copy.innerHTML= `<i class="fa-regular fa-clone"></i>`
 },2000)
